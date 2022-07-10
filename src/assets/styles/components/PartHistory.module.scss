@@ -1,0 +1,81 @@
+@import "styles/abstract/colors.scss";
+@import "styles/abstract/constraints.scss";
+
+.overlay {
+
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: $maxFullscreenWidth;
+  height: $maxFullscreenHeight;
+  background: $overlay;
+  display: grid;
+  place-items: center;
+
+  .partHistory {
+    background: $primary;
+    border-radius: $partHistoryBorderRadius;
+    display: flex;
+    flex-direction: column;
+    min-width: $partHistoryMinWidth;
+    min-height: $partHistoryMinHeight;
+    max-width: $partHistoryMaxWidth;
+    max-height: $partHistoryMaxHeight;
+
+    .header {
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      .title {
+        flex-grow: 1;
+        font-weight: 500;
+        font-size: $partHistoryTitleFontSize;
+      }
+      .close {
+        font-size: $partHistoryCloseButtonFontSize;
+        font-weight: 900;
+        color: $danger;
+        cursor: pointer;
+      }
+    }
+    .content {
+      position: relative;
+      flex-grow: 1;
+      overflow-y: scroll;
+      padding: 3px;
+
+      .table {
+        width: 100%;
+        height: 100%;
+        border: 1px solid $primary-inverted;
+        border-radius: $partHistoryTableBorderRadius;
+
+         tr {
+          display: grid;
+          grid-template-columns: 2fr 2fr 5fr;
+
+          td {
+            text-align: center;
+            border-bottom: 1px solid $primary-inverted;
+          }
+
+          td:nth-child(3) {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            text-align: left;
+          }
+        }
+        .tableHeader {
+          border: 1px solid $primary-inverted;
+          background: $primary-inverted;
+          color: $primary;
+          position: sticky;
+          top: 0;
+          width: 100%;
+          height: $partHistoryTableHeaderSize;
+        }
+      }
+    }
+  }
+}

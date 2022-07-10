@@ -1,0 +1,21 @@
+@import "styles/abstract/colors.scss";
+@import "styles/abstract/constraints.scss";
+
+.detailCard {
+  background: $surface;
+  border-radius: $cardBorderRadius;
+  padding: $cardPadding;
+
+  .name {
+    color: $text-inverted;
+    font-size: $nameFontSize;
+    text-align: center;
+    font-weight: 200;
+  }
+
+  .value {
+    color: $text-inverted;
+    font-size: $valueFontSize;
+    text-align: center;
+  }
+}

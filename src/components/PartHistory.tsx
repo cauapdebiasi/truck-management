@@ -1,0 +1,176 @@
+import { MdClose, MdSort } from "react-icons/md"
+import styles from "styles/components/PartHistory.module.scss"
+
+const PartHistory: React.FC = () => {
+  return (
+    <div className={styles.overlay}>
+      <div className={styles.partHistory}>
+        <div className={styles.header}>
+          <h1 className={styles.title}>Histórico de trocas</h1>
+          <MdClose className={styles.close}/>
+        </div>
+        <div className={styles.content}>
+          <table className={styles.table}>
+            <tr className={styles.tableHeader}>
+              <th>Km <MdSort /></th>
+              <th>Data</th>
+              <th>Observações</th>
+            </tr>
+            <tr>
+              <td>123.456</td>
+              <td>22/12/2022</td>
+              <td>Nada</td>
+            </tr>
+            <tr>
+              <td>123.456</td>
+              <td>22/12/2022</td>
+              <td>Nada</td>
+            </tr>
+            <tr>
+              <td>123.456</td>
+              <td>22/12/2022</td>
+              <td>Nada</td>
+            </tr>
+            <tr>
+              <td>123.456</td>
+              <td>22/12/2022</td>
+              <td>Nada</td>
+            </tr>
+            <tr>
+              <td>123.456</td>
+              <td>22/12/2022</td>
+              <td>Nada</td>
+            </tr>
+            <tr>
+              <td>123.456</td>
+              <td>22/12/2022</td>
+              <td>Nada</td>
+            </tr>
+            <tr>
+              <td>123.456</td>
+              <td>22/12/2022</td>
+              <td>Nada</td>
+            </tr>
+            <tr>
+              <td>123.456</td>
+              <td>22/12/2022</td>
+              <td>Nada</td>
+            </tr>
+            <tr>
+              <td>123.456</td>
+              <td>22/12/2022</td>
+              <td>Nada</td>
+            </tr>
+            <tr>
+              <td>123.456</td>
+              <td>22/12/2022</td>
+              <td>Nada</td>
+            </tr>
+            <tr>
+              <td>123.456</td>
+              <td>22/12/2022</td>
+              <td>Nada</td>
+            </tr>
+            <tr>
+              <td>123.456</td>
+              <td>22/12/2022</td>
+              <td>Nada</td>
+            </tr>
+            <tr>
+              <td>123.456</td>
+              <td>22/12/2022</td>
+              <td>Nada</td>
+            </tr>
+            <tr>
+              <td>123.456</td>
+              <td>22/12/2022</td>
+              <td>Nada</td>
+            </tr>
+            <tr>
+              <td>123.456</td>
+              <td>22/12/2022</td>
+              <td>Nada</td>
+            </tr>
+            <tr>
+              <td>123.456</td>
+              <td>22/12/2022</td>
+              <td>Nada</td>
+            </tr>
+            <tr>
+              <td>123.456</td>
+              <td>22/12/2022</td>
+              <td>Nada</td>
+            </tr>
+            <tr>
+              <td>123.456</td>
+              <td>22/12/2022</td>
+              <td>Nada</td>
+            </tr>
+            <tr>
+              <td>123.456</td>
+              <td>22/12/2022</td>
+              <td>Nada</td>
+            </tr>
+            <tr>
+              <td>123.456</td>
+              <td>22/12/2022</td>
+              <td>Nada</td>
+            </tr>
+            <tr>
+              <td>123.456</td>
+              <td>22/12/2022</td>
+              <td>Nada</td>
+            </tr>
+            <tr>
+              <td>123.456</td>
+              <td>22/12/2022</td>
+              <td>Nada</td>
+            </tr>
+            <tr>
+              <td>123.456</td>
+              <td>22/12/2022</td>
+              <td>Nada</td>
+            </tr>
+            <tr>
+              <td>123.456</td>
+              <td>22/12/2022</td>
+              <td>Nada</td>
+            </tr>
+            <tr>
+              <td>123.456</td>
+              <td>22/12/2022</td>
+              <td>Nada</td>
+            </tr>
+            <tr>
+              <td>123.456</td>
+              <td>22/12/2022</td>
+              <td>Nada</td>
+            </tr>
+            <tr>
+              <td>123.456</td>
+              <td>22/12/2022</td>
+              <td>Nada</td>
+            </tr>
+            <tr>
+              <td>123.456</td>
+              <td>22/12/2022</td>
+              <td>Nada</td>
+            </tr>
+            <tr>
+              <td>123.456</td>
+              <td>22/12/2022</td>
+              <td>Nada</td>
+            </tr>
+            <tr>
+              <td>123.456</td>
+              <td>22/12/2022</td>
+              <td>Nada</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default PartHistory

@@ -1,0 +1,24 @@
+@import "styles/abstract/colors.scss";
+@import "styles/abstract/constraints.scss";
+
+.textInput {
+  outline: none;
+  padding: $inputPadding;
+  font-size: $InputFontSize;
+  font-weight: 400;
+  border-width: 1px;
+  border-color: $primary-inverted;
+  background-color: $primary;
+  color: $primary-inverted;
+  border-style: solid;
+  border-radius: $inputBorderRadius;
+
+  &:focus {
+    outline: 2px solid $accent;
+  }
+}
+.label {
+  font-size: $inputLabelFontSize;
+  font-weight: 300;
+  color: $primary;
+}

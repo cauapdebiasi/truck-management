@@ -1,0 +1,28 @@
+@import "styles/abstract/colors.scss";
+@import "styles/abstract/constraints.scss";
+
+.partsList {
+  background: $primary;
+  border-radius: $partsListBorderRadius;
+  padding: $partsListPadding;
+  flex-grow: 1;
+  margin: 10px 5px;
+  min-width: $partsListMinWidth;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 100%;
+
+  .title {
+    color: $primary-inverted;
+    font-size: $partsListTitleFontSize;
+    text-align: center;
+    font-weight: 300;
+  }
+
+  .list {
+    flex-grow: 1;
+    width: 100%;
+    overflow-y: scroll;
+  }
+}

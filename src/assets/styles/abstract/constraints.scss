@@ -1,0 +1,86 @@
+//Global variables
+$maxFullscreenHeight: 99.99vh;
+$maxFullscreenWidth: 99.99vw;
+
+//Side Panel variables
+$panelMaxHeight: $maxFullscreenHeight;
+$sidePanelWidth: 100px;
+$panelButtonIconSize: calc(($sidePanelWidth * 30) / 100);
+$panelButtonTextSize: 24px;
+
+//Home screen variables
+$homeMaxHeight: $maxFullscreenHeight;
+$homeTitleFontSize: 32px;
+$buttonPadding: 9px;
+$buttonBorderRadius: 6px;
+$buttonFontSize: 16px;
+$infoIconSize: 24px;
+
+//Text input variables
+$inputBorderRadius: 6px;
+$inputPadding: 9px;
+$InputFontSize: 16px;
+$inputLabelFontSize: 16px;
+
+//Details card variables
+$cardBorderRadius: 6px;
+$cardPadding: 6px;
+$nameFontSize: 16px;
+$valueFontSize: 28px;
+
+//Parts list variables
+$partsListPadding: 6px;
+$partsListBorderRadius: 6px;
+$partsListTitleFontSize: 28px;
+$partsListMinWidth: 400px;
+
+//List item variables
+$listItemNameFontSize: 16px;
+$listItemValueFontSize: 16px;
+$lisItemActionBorderRadius: 6px;
+$listItemActionFontSize: 24px;
+
+//Dashboard screen variables
+$dashboardMaxHeight: $maxFullscreenHeight;
+$dashboardGridGap: 5px;
+$dashboardContentMaxHeight: 500px;
+
+//Parts screen variables
+$partsMaxHeight: $maxFullscreenHeight;
+$partsContentMaxHeight: 500px;
+$partsGridGap: 5px;
+
+//Category selector variables
+$categorySelectorTitleFontSize: 16px;
+
+//Category button variables
+$categoryButtonBorderRadius: 6px;
+$categoryButtonPadding: 5px;
+$categoryButtonFontSize: 16px;
+
+//Parts filter variables
+$partsFilterFormBottomPadding: 5px;
+
+//Settings screen variables
+$settingsMaxHeight: $maxFullscreenHeight;
+$settingsTitleFontSize: 32px;
+
+//Part history variables
+$partHistoryBorderRadius: 6px;
+$partHistoryCloseButtonFontSize: 32px;
+$partHistoryTitleFontSize: 16px;
+$partHistoryMinWidth:500px;
+$partHistoryMaxWidth:800px;
+$partHistoryMinHeight:500px;
+$partHistoryMaxHeight:650px;
+$partHistoryTableHeaderSize: 24px;
+$partHistoryTableBorderRadius: 6px;
+
+//Part change variables
+$partChangeBorderRadius: 6px;
+$partChangeCloseButtonFontSize: 32px;
+$partChangeTitleFontSize: 16px;
+$partChangeMinWidth:500px;
+$partChangeMaxWidth:800px;
+$partChangeMinHeight:500px;
+$partChangeMaxHeight:650px;

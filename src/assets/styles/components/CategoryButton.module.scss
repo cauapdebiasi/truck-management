@@ -1,0 +1,22 @@
+@import "styles/abstract/colors.scss";
+@import "styles/abstract/constraints.scss";
+
+.categoryButton {
+  border: 1px solid $primary-inverted;
+  background: $primary;
+  border-radius: $categoryButtonBorderRadius;
+  color: $primary-inverted;
+  font-weight: 500;
+  font-size: $categoryButtonFontSize;
+  padding: $categoryButtonPadding;
+  cursor: pointer;
+
+  &:hover {
+    color: $primary;
+    background: $primary-inverted;
+  }
+  &.selected {
+    background: $primary-inverted;
+    color: $primary;
+  }
+}

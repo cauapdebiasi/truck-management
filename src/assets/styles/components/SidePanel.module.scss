@@ -1,0 +1,47 @@
+@import "../abstract/colors.scss";
+@import "../abstract/constraints.scss";
+
+.sidePanel {
+  width: 100%;
+  height: 100%;
+  max-height: $panelMaxHeight;
+  display: grid;
+  grid-template-rows: 1fr $sidePanelWidth;
+  background: $primary;
+
+  .buttonGroup {
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+      width: 0;
+    }
+  }
+  .button {
+
+    width: $sidePanelWidth;
+    aspect-ratio: 1/1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    color: $primary-inverted;
+    cursor: default;
+
+    &.active {
+      background: $primary-inverted;
+
+      .icon {color: $primary;}
+      .text {color: $primary;}
+    }
+
+    .icon {
+      font-size: $panelButtonIconSize;
+    }
+    .text {
+      font-size: $panelButtonTextSize;
+      font-weight: 300;
+    }
+  }
+}
