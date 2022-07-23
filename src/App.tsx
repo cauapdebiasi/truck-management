@@ -4,7 +4,7 @@ import Base from "@/screens/Base"
 const App: React.FC = () => {
   return (
     <BrowserRouter>
-        <Base />
+      <Base />
     </BrowserRouter>
   )
 }

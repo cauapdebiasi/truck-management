@@ -26,14 +26,8 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    overflow-y: scroll;
     padding-bottom: $partsFilterFormBottomPadding;
 
-    .subTitle {
-      color: $primary-inverted;
-      font-weight: 400;
-      text-align: center;
-    }
     div {
       p {
         color: $primary-inverted

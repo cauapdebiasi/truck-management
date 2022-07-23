@@ -10,6 +10,13 @@ rmSync(join(__dirname, 'dist'), { recursive: true, force: true }) // v14.14.0
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: `@import "styles/global.scss";`,
+      }
+    }
+  },
   resolve: {
     alias: {
       '@': join(__dirname, 'src'),

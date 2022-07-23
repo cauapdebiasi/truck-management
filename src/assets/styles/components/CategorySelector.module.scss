@@ -3,11 +3,10 @@
 
 .categorySelector {
 
-  display: flex;
-  flex-wrap: wrap;
-  flex-grow: 1;
   width: 100%;
+  max-width: 500px;
   justify-content: space-around;
+
 
   .container {
 
@@ -17,6 +16,11 @@
     .title {
       color: $primary-inverted;
       font-size: $categorySelectorTitleFontSize;
+    }
+
+    .categories {
+      max-height: 100px;
+      overflow-y: scroll;
     }
   }
 }

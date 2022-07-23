@@ -8,9 +8,9 @@ const PartsFilter: React.FC = () => {
       <h1 className={styles.title}>Filtrar</h1>
       <div className={styles.form}>
         <div>
-          <TextInput type="text" name="filter" id="filter" placeholder="Ex.: Bomba do arla" label="Nome da peça"/>
+          <TextInput type="text" name="filter" id="filter" placeholder="Ex.: Bomba do arla" label="Nome da peça" />
         </div>
-        <h2 className={styles.subTitle}>Categorias</h2>
+        <h2 className={styles.title}>Categorias</h2>
         <CategorySelector />
       </div>
     </div>

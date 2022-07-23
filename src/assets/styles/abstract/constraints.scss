@@ -4,9 +4,9 @@ $maxFullscreenWidth: 99.99vw;
 
 //Side Panel variables
 $panelMaxHeight: $maxFullscreenHeight;
-$sidePanelWidth: 100px;
+$sidePanelWidth: 75px;
 $panelButtonIconSize: calc(($sidePanelWidth * 30) / 100);
-$panelButtonTextSize: 24px;
+$panelButtonTextSize: calc(($sidePanelWidth * 20) / 100);
 
 //Home screen variables
 $homeMaxHeight: $maxFullscreenHeight;
@@ -25,20 +25,20 @@ $inputLabelFontSize: 16px;
 //Details card variables
 $cardBorderRadius: 6px;
 $cardPadding: 6px;
-$nameFontSize: 16px;
-$valueFontSize: 28px;
+$nameFontSize: 12px;
+$valueFontSize: 24px;
 
 //Parts list variables
 $partsListPadding: 6px;
 $partsListBorderRadius: 6px;
-$partsListTitleFontSize: 28px;
-$partsListMinWidth: 400px;
+$partsListTitleFontSize: 24px;
+$partsListMinWidth: 300px;
 
 //List item variables
-$listItemNameFontSize: 16px;
-$listItemValueFontSize: 16px;
+$listItemNameFontSize: 13px;
+$listItemValueFontSize: 13px;
 $lisItemActionBorderRadius: 6px;
-$listItemActionFontSize: 24px;
+$listItemActionFontSize: 22px;
 
 //Dashboard screen variables
 $dashboardMaxHeight: $maxFullscreenHeight;
@@ -51,12 +51,12 @@ $partsContentMaxHeight: 500px;
 $partsGridGap: 5px;
 
 //Category selector variables
-$categorySelectorTitleFontSize: 16px;
+$categorySelectorTitleFontSize: 14px;
 
 //Category button variables
 $categoryButtonBorderRadius: 6px;
 $categoryButtonPadding: 5px;
-$categoryButtonFontSize: 16px;
+$categoryButtonFontSize: 13px;
 
 //Parts filter variables
 $partsFilterFormBottomPadding: 5px;

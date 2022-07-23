@@ -23,6 +23,8 @@ const url = `http://${process.env['VITE_DEV_SERVER_HOST']}:${process.env['VITE_D
 async function createWindow() {
   win = new BrowserWindow({
     title: 'Baggeto trucks',
+    minWidth: 500,
+    minHeight: 400,
     webPreferences: {
       preload: splash,
       nodeIntegration: true,
