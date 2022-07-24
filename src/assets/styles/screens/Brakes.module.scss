@@ -1,0 +1,32 @@
+@import '../abstract/colors.scss';
+@import '../abstract/constraints.scss';
+
+.brakes {
+  max-height: $brakesMaxHeight;
+  display: grid;
+  grid-template-rows: auto auto 3fr;
+  gap: $brakesGridGap;
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  .details {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-height: 100%;
+
+    div {
+      max-height: $brakesContentMaxHeight;
+    }
+  }
+}
