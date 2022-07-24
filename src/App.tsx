@@ -1,10 +1,13 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { BrowserRouter } from "react-router-dom"
 import Base from "@/screens/Base"
+import PartsContext from "./contexts/PartsContext"
 
 const App: React.FC = () => {
   return (
     <BrowserRouter>
-      <Base />
+      <PartsContext>
+        <Base />
+      </PartsContext>
     </BrowserRouter>
   )
 }
