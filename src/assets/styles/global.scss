@@ -33,7 +33,7 @@ code {
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -42,5 +42,5 @@ code {
 
 ::-webkit-scrollbar-thumb {
   background-color: $primary-inverted;
-  border-radius: 10px;
+  border-radius: 6px;
 }
