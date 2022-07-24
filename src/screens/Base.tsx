@@ -5,6 +5,7 @@ import Dashboard from "./Dashboard";
 import Parts from "./Parts";
 import Settings from "./Settings";
 import Save from "./Save";
+import Brakes from "./Brakes";
 import styles from "@/assets/styles/screens/Base.module.scss";
 
 const Base: React.FC = () => {
@@ -17,6 +18,7 @@ const Base: React.FC = () => {
         <Route path="/parts" element={<Parts />} />
         <Route path="/settings" element={<Settings />} />
         <Route path="/save" element={<Save />} />
+        <Route path="/brakes" element={<Brakes />} />
       </Routes>
     </div>
   )
