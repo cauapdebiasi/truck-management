@@ -4,17 +4,19 @@ import Home from "./Home";
 import Dashboard from "./Dashboard";
 import Parts from "./Parts";
 import Settings from "./Settings";
-import styles from "@/assets/styles/screens/base.module.scss";
+import Save from "./Save";
+import styles from "@/assets/styles/screens/Base.module.scss";
 
 const Base: React.FC = () => {
   return (
     <div className={styles.base}>
       <SidePanel></SidePanel>
       <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/dashboard" element={<Dashboard />}/>
-        <Route path="/parts" element={<Parts />}/>
-        <Route path="/settings" element={<Settings />}/>
+        <Route path="/" element={<Home />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/parts" element={<Parts />} />
+        <Route path="/settings" element={<Settings />} />
+        <Route path="/save" element={<Save />} />
       </Routes>
     </div>
   )

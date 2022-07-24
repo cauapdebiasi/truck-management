@@ -2,8 +2,8 @@
 @import '../abstract/constraints.scss';
 
 .base {
-  width: 100%;
-  height: 100%;
+  width: $maxFullscreenWidth;
+  height: $maxFullscreenHeight;
   background: $primary-inverted-gradient;
   display: grid;
   grid-template-columns: $sidePanelWidth 1fr;
