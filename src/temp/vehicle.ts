@@ -2,18 +2,15 @@ import { IVehicle } from "@/types/dataMap";
 
 export const vehicle: IVehicle = {
   "frota": {
-    value: "64",
-    replacements: [],
+    replacements: [{ value: "64", km: 0, date: "", observations: "" }, { value: "65", km: 123, date: "", observations: "" }],
   },
   "placa": {
-    value: "MMF1441",
-    replacements: [],
+    replacements: [{ value: "MMF1441", km: 0, date: "", observations: "" }],
   },
   "filtrolubrificante": {
-    replacements: [],
+    replacements: [{ km: 234, date: "", observations: "" }, { km: 123, date: "", observations: "" }],
   },
   "modelo": {
-    value: "r480",
-    replacements: [],
+    replacements: [{ value: "r480", km: 0, date: "", observations: "" }],
   }
 }
