@@ -1,13 +1,13 @@
 import { BrowserRouter } from "react-router-dom"
 import Base from "@/screens/Base"
-import PartsContext from "./contexts/PartsContext"
+import MainContext from "./contexts/MainContext"
 
 const App: React.FC = () => {
   return (
     <BrowserRouter>
-      <PartsContext>
+      <MainContext>
         <Base />
-      </PartsContext>
+      </MainContext>
     </BrowserRouter>
   )
 }
