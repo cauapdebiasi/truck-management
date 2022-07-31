@@ -1,4 +1,3 @@
-import Details from "@/components/Details"
 import PartsList from "@/components/PartsList"
 
 import styles from "styles/screens/Brakes.module.scss"

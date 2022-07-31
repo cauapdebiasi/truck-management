@@ -1,7 +1,7 @@
 import { IAppPreferences, ICategoriesMap, IMappedPart, IModelsMap, IPartCategory, IPartId, IPartMap, IPartsMap, IPartThreshold, IPartValue, IReplacement, IReplacementDate, IReplacementKm, IVehicle } from "@/types/dataMap"
 import React, { createContext, useEffect, useState } from "react"
-import { vehicle, vehicle as vehicleFile } from "@/temp/vehicle"
-import { isArrayEmpty, isObjectEmpty } from "@/utils/utils"
+import { vehicle as vehicleFile } from "@/temp/vehicle"
+import { isObjectEmpty } from "@/utils/utils"
 import { partsMap as partsMapFile, categoriesMap as categoriesMapFile, modelsMap as modelMapFile, preferences as preferencesFile } from "@/temp/dataMap"
 
 type PartsProviderProps = {

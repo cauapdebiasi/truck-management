@@ -1,5 +1,4 @@
 import Details from "@/components/Details"
-import PartsList from "@/components/PartsList"
 import SidePanel from "@/components/SidePanel"
 import { Outlet } from "react-router-dom"
 
