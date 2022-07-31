@@ -7,13 +7,13 @@ const SidePanel: React.FC = () => {
   return (
     <div className={styles.sidePanel}>
       <div className={styles.buttonGroup}>
-        <PanelButton text="Início" route="/" Icon={MdHome}/>
-        <PanelButton text="Painel" route="/dashboard" Icon={MdDashboard}/>
-        <PanelButton text="Peças" route="/parts" Icon={MdHandyman}/>
-        <PanelButton text="Freios" route="/brakes" Icon={MdStream}/>
-        <PanelButton text="Salvar" route="/save" Icon={MdSave}/>
+        <PanelButton text="Início" route="/" Icon={MdHome} />
+        <PanelButton text="Painel" route="/dashboard" Icon={MdDashboard} />
+        <PanelButton text="Peças" route="parts" Icon={MdHandyman} />
+        <PanelButton text="Freios" route="brakes" Icon={MdStream} />
+        <PanelButton text="Salvar" route="save" Icon={MdSave} />
       </div>
-      <PanelButton text="Config." route="/settings" Icon={MdSettings} />
+      <PanelButton text="Config." route="settings" Icon={MdSettings} />
     </div>
   )
 }

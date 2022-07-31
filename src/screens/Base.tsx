@@ -7,18 +7,21 @@ import Settings from "./Settings";
 import Save from "./Save";
 import Brakes from "./Brakes";
 import styles from "@/assets/styles/screens/Base.module.scss";
+import PartsList from "@/components/PartsList";
 
 const Base: React.FC = () => {
   return (
     <div className={styles.base}>
-      <SidePanel></SidePanel>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/parts" element={<Parts />} />
-        <Route path="/settings" element={<Settings />} />
-        <Route path="/save" element={<Save />} />
-        <Route path="/brakes" element={<Brakes />} />
+        <Route path="/dashboard" element={<Dashboard />}>
+          <Route index element={<><PartsList title="Filtros" category="filtros" />
+            <PartsList title="Óleos" category="fluidos" /></>} />
+          <Route path="parts" element={<Parts />} />
+          <Route path="settings" element={<Settings />} />
+          <Route path="save" element={<Save />} />
+          <Route path="brakes" element={<Brakes />} />
+        </Route>
       </Routes>
     </div>
   )

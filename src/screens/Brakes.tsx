@@ -6,9 +6,6 @@ import styles from "styles/screens/Brakes.module.scss"
 const Brakes: React.FC = () => {
   return (
     <div className={styles.brakes}>
-      <div className={styles.details}>
-        <Details />
-      </div>
       <div className={styles.info}></div>
       <div className={styles.content}>
         <PartsList title="Lonas de freio" category="brakes" />
